@@ -8,73 +8,87 @@
     <link href="css/custom.css" rel="stylesheet" />
     <title>Kansas City Music Company</title>
 
+    <!--CDN Stylesheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Favicon-->
-    <link rel="shortcut icon" href="/"
-    
+    <link rel="shortcut icon" href="/images/favicon-kcm.ico" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon-kcm.ico" type="image/x-icon" />
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/ba0e8a259f.js" crossorigin="anonymous"></script>
 
 </head>
+
+
 <body>
-    <header id="header">
-        <!--TODO header overlay-->
-        <div id="headerOverlay">
-        <h1 id= "headerOverlay">
-            Kansas City Music Company
-        </h1>
+    <header>
+        <!--header overlay-->
+        <div>
+        <h1 class="headerOverlay">Kansas City Music Company</h1>
         </div>
-        <h2>
-            Music Lessons
-            </h2>
+        <!--Tagline-->
+            <div id="tagline">
+            <p>Music Lessons for Beginner's and Advanced Learners<p>
+            </div>
     </header>
 
     <nav>
         <ul>
+
             <li>
                 <a class="active" href="index.html">Home</a>
             </li>
             <li>
+                <a href="css.html">Music Lessons</a>
+            </li>
+            <li>
+                <a href="resources/index.html">Meet Our Staff</a>
+            </li>
+            <li>
+                <a href="resources/index.html">Schedule a Lesson</a>
+            </li>
+            <li>
                 <a href="HTML.html">About Us</a>
-            </li>
-            <li>
-                <a href="css.html">Class Subjects</a>
-            </li>
-            <li>
-                <a href="resources/index.html">Leadership</a>
-            </li>
-            <li>
-                <a href="resources/index.html">Contact Us</a>
             </li>
         </ul>
     </nav>
 
     <main>
-        <aside id="leftcolumn">
-            <h3>
-                About Us                
-            </h3>
-            <p>
-                
-            </p>
+        
+        <aside id="rightColumn" class="test">
+
+            <h2 align="center">Lessons Offered</h2>
+
+            <div class="col-md-6 galleryItem" align="justify">
+                <p><img src="images/150x150.png" /><img src="images/150x150.png" /></p>
+            </div>
+            <div class="col-md-6 galleryItem">
+                <p><img src="images/150x150.png" /><img src="images/150x150.png" /></p>
+            </div>
+            <div class="col-md-6 galleryItem">
+                <p><img src="images/150x150.png" /><img src="images/150x150.png" /></p>
+            </div>
+            <div class="col-md-6 galleryItem">
+                <p><img src="images/150x150.png" /><img src="images/150x150.png" /></p>
+            </div>
+
         </aside>
-        <section>
-            <p>
-                Candy gingerbread tiramisu wafer wafer muffin jelly-o tiramisu oat cake. Halvah pudding marshmallow bonbon donut chocolate. Cupcake pie jelly beans danish. Powder candy canes gummies sesame snaps candy canes toffee marzipan. Chocolate cake lollipop tart danish pie cake tiramisu tart. Danish soufflé lemon drops brownie. Icing toffee muffin topping.
-            <p>
             
-        </section>
-            <article>
-            <h4>
-                Additional Services
-            </h4>
-            </article>
+            
     </main>
-<footer>
-    <p class="text-center">
-        Kansas City Music Company
-        Addresss: 1740 W 92nd Street, Kansas City, MO 64114
-        Email: learning@smallbiz.com
-        Phone: (816) 857-5309
-    </p>
-    &copy;2020 Chad Way 
+<footer class="clear">
+    <div align="center">
+        <table class="contactinfo">
+            <tr><td>Kansas City Music Company</td></tr>
+            <tr><td>Addresss: 1740 W 92nd Street, Kansas City, MO 64114</td></tr>
+            <tr><td>Email: KCMusicCompany@youremailhere.com</td></tr>
+            <tr><td>Phone: (816) 857-5309</td></tr>
+        </table>
+    </div>
+    
+    <div align="center">&copy;2020 Chad Way</div>
+            
 </footer>
 </body>
 </html>

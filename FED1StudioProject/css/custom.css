@@ -1,1 +1,78 @@
-﻿
+﻿header{
+    background-image: url(../images/banner-musicnotes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image
+    height: 200px;
+
+}
+
+/**/tagline{
+
+}
+
+.test{
+    background-color: brown;
+    color: blue;
+}
+
+#rightColumn{
+    width: 25%;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Image Gallery*/
+
+div.galleryItem {
+    text-align: center;
+    border: 1px solid #ccc;
+    display: block;
+    width: auto;
+    object-fit: fill;
+}
+
+    div.galleryItem:hover {
+        border: 1px solid lightsalmon;
+    }
+
+    div.galleryItem img {
+        width: auto;
+        display: inline-block;
+        padding: 10px;
+        height: auto;    
+        
+    }
+
+    div.galleryItem a:hover {
+        background-color: lightsalmon;
+    }
+
+#imageGallery {
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+}
+
+.col-md-6{
+    align-self: stretch;
+}
+
+.contactinfo {
+    background-color: darkslateblue;
+    align-content: center;
+}
+
+table td{
+    text-align: center;
+    color: aliceblue;
+}
