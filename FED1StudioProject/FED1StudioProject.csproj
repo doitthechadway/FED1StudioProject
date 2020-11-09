@@ -67,13 +67,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Contact.html" />
-    <Content Include="Team.html" />
-    <Content Include="Classes.html" />
+    <Content Include="aboutus.html" />
+    <Content Include="images\150x150.png" />
+    <Content Include="images\banner300-musicnotes-2.png" />
+    <Content Include="images\founderkcmusic.jpg" />
+    <Content Include="images\guitartest.jpg" />
+    <Content Include="images\pagebackground-musicnoteswirl - Copy.jpg" />
+    <Content Include="images\staffpic1-guitar.jpg" />
+    <Content Include="images\staffpic10-bass.jpg" />
+    <Content Include="images\staffpic11-violin.jpg" />
+    <Content Include="images\staffpic12-tuba.jpg" />
+    <Content Include="images\staffpic2-vocalsedit.jpg" />
+    <Content Include="images\staffpic3-drums.jpg" />
+    <Content Include="images\staffpic4-guitar.jpg" />
+    <Content Include="images\staffpic5-saxophone.jpg" />
+    <Content Include="images\staffpic6-trombone.jpg" />
+    <Content Include="images\staffpic7-clarinet.jpg" />
+    <Content Include="images\staffpic8-trumpet.jpg" />
+    <Content Include="images\staffpic9-frenchhorn.jpg" />
+    <Content Include="staff - Copy %282%29.html" />
+    <Content Include="staff - Copy %283%29.html" />
+    <Content Include="lessons.html" />
+    <Content Include="staff.html" />
+    <Content Include="css\custom.css" />
+    <Content Include="images\favicon-kcm.ico" />
+    <Content Include="images\pagebackground-musicnoteswirl.jpg" />
+    <Content Include="images\headeroverlay-japanesemaple.PNG" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\csstestpage.css" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -86,8 +110,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
-    <Folder Include="images\" />
     <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
