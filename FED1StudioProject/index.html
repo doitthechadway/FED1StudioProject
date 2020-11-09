@@ -19,76 +19,103 @@
     <script src="https://kit.fontawesome.com/ba0e8a259f.js" crossorigin="anonymous"></script>
 
 </head>
-
-
 <body>
     <header>
         <!--header overlay-->
-        <div>
-        <h1 class="headerOverlay">Kansas City Music Company</h1>
-        </div>
-        <!--Tagline-->
-            <div id="tagline">
-            <p>Music Lessons for Beginner's and Advanced Learners<p>
+        <section>            
+            <div class="headerOverlay">
+                <h1>Kansas City Music Company</h1>
+                <div class="tagline">
+                    Music Lessons for Beginners and Advanced Learners
+                </div>
             </div>
+                <!--Tagline-->                             
+                <nav>
+                    <ul>
+                        <li>
+                            <a class="active" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="css.html">Music Lessons</a>
+                        </li>
+                        <li>
+                            <a href="staff.html">Meet Our Staff</a>
+                        </li>
+                        <li>
+                            <a href="resources/index.html">Schedule a Lesson</a>
+                        </li>
+                        <li>
+                            <a href="HTML.html">About Us</a>
+                        </li>
+                    </ul>
+                </nav>            
+        </section>
     </header>
 
-    <nav>
-        <ul>
-
-            <li>
-                <a class="active" href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="css.html">Music Lessons</a>
-            </li>
-            <li>
-                <a href="resources/index.html">Meet Our Staff</a>
-            </li>
-            <li>
-                <a href="resources/index.html">Schedule a Lesson</a>
-            </li>
-            <li>
-                <a href="HTML.html">About Us</a>
-            </li>
-        </ul>
-    </nav>
-
     <main>
-        
-        <aside id="rightColumn" class="test">
+        <section id="leftColumn" class="clear">
+            <h2>History of Kansas City Music Company</h2>
+            <p>Established in 1922, the Kansas City Music Company has been helping young and old musician's alike discover or rediscover their love of music for nearly 100 years. Whether you are just beginning your music journey with a learner's instrument, an enthusiast who want's to brush up on their skills, or an advanced learner playing at the professional level, we have a range of dedicated teacher's and staff ready to help you learn and grow as a musician. </p>
 
-            <h2 align="center">Lessons Offered</h2>
 
-            <div class="col-md-6 galleryItem" align="justify">
-                <p><img src="images/150x150.png" /><img src="images/150x150.png" /></p>
-            </div>
-            <div class="col-md-6 galleryItem">
-                <p><img src="images/150x150.png" /><img src="images/150x150.png" /></p>
-            </div>
-            <div class="col-md-6 galleryItem">
-                <p><img src="images/150x150.png" /><img src="images/150x150.png" /></p>
-            </div>
-            <div class="col-md-6 galleryItem">
-                <p><img src="images/150x150.png" /><img src="images/150x150.png" /></p>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/founderkcmusic.jpg" alt="Avatar" style="width:275px;height:275px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1 class="flipcardname">Aleksander Delanney</h1>
+                        <p class="flipcarddetails">Owner &amp; General Manager</p>
+                        <p class="flipcarddetails">1983 - Present</p>
+                    </div>
+                </div>
             </div>
 
+
+
+        </section>
+
+        <aside id="rightColumn">
+            <!-- Lessons Offered Navbar-->
+            <h2 align="center" class="fontstyle1">Lessons Offered</h2>
+            <div class="container">
+                <section>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div style="clear:both;"></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div style="clear:both;"></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div style="clear:both;"></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div style="clear:both;"></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div style="clear:both;"></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div style="clear:both;"></div>
+                </section>
+            </div>
         </aside>
-            
-            
+        <div style="clear:both;"></div>
     </main>
-<footer class="clear">
-    <div align="center">
-        <table class="contactinfo">
-            <tr><td>Kansas City Music Company</td></tr>
-            <tr><td>Addresss: 1740 W 92nd Street, Kansas City, MO 64114</td></tr>
-            <tr><td>Email: KCMusicCompany@youremailhere.com</td></tr>
-            <tr><td>Phone: (816) 857-5309</td></tr>
-        </table>
-    </div>
-    
-    <div align="center">&copy;2020 Chad Way</div>
-            
-</footer>
+
+    <footer class="clear">
+        <div class="footer" align="center">
+            <table class="contactinfo">
+                <tr><td class="tdspecial">Kansas City Music Company</td></tr>
+                <tr><td class="tdstyling">Addresss: 1740 W 92nd Street, Kansas City, MO 64114</td></tr>
+                <tr><td class="tdstyling">Email: KCMusicCompany@youremailhere.com</td></tr>
+                <tr><td class="tdstyling">Phone: (816) 857-5309</td></tr>
+            </table>
+        </div>
+
+        <div align="center" class="copyright">&copy;2020 Chad Way</div>
+
+    </footer>
 </body>
 </html>

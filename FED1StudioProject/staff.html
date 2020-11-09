@@ -2,45 +2,279 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Small Business Project" />
-    <meta name="keywords" content="Small Business Project" />
+    <meta name="description" content="Kansas City Music Company" />
+    <meta name="keywords" content="music, lessons, instruments" />
     <meta name="author" content="Chad Way" />
-    <title>Small Business Project</title>
+    <link href="css/custom.css" rel="stylesheet" />
+    <title>Kansas City Music Company</title>
+
+    <!--CDN Stylesheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="/images/favicon-kcm.ico" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon-kcm.ico" type="image/x-icon" />
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/ba0e8a259f.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
-        <h1>
-            Educational Services
-        </h1>
-        <p>
-            Welcome
-        </p>
-    </header>
-    <main>
-        <aside>
-            <h2>
-                Services
-            </h2>
-            <p>
-                Cheesecake cookie croissant. Chocolate pudding gummi bears. Marzipan powder cupcake gingerbread gummi bears sweet roll cupcake chupa chups. Lemon drops gummi bears jelly marzipan cotton candy halvah. Halvah powder gummies carrot cake cheesecake croissant jelly beans dessert. Macaroon donut tiramisu chocolate cake cake croissant.
-            </p>
-        </aside>
+        <!--header overlay-->
         <section>
-            <h1>
-                Candy gingerbread tiramisu wafer wafer muffin jelly-o tiramisu oat cake. Halvah pudding marshmallow bonbon donut chocolate. Cupcake pie jelly beans danish. Powder candy canes gummies sesame snaps candy canes toffee marzipan. Chocolate cake lollipop tart danish pie cake tiramisu tart. Danish soufflé lemon drops brownie. Icing toffee muffin topping.
-            </h1>
+            <div class="headerOverlay">
+                <h1>Kansas City Music Company</h1>
+                <div class="tagline">
+                    Music Lessons for Beginners and Advanced Learners
+                </div>
+            </div>
+            <!--Tagline-->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="lessons.html">Music Lessons</a>
+                    </li>
+                    <li>
+                        <a class="active" href="staff.html">Meet Our Staff</a>
+                    </li>
+                    <li>
+                        <a href="scheduling.html">Schedule a Lesson</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">About Us</a>
+                    </li>
+                </ul>
+            </nav>
         </section>
-            <article>
-            <h3>
-                Additional Services
-            </h3>
-            </article>
+    </header>
+
+    <main id="mainwrapper">
+        <div id="leftColumn">
+            <h2 align="center" class="fontstyle1">Teachers</h2>
+            <!--Staff Row 1-->
+            <div class="lessonscontainer" >
+
+                <div class="row">
+
+
+                    <div class="flip-card col-md-4 purpleborder">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/staffpic1-guitar.jpg" alt="Avatar" style="width:275px;height:275px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 class="flipcardname">Anton Smith</h1>
+                                <p class="flipcarddetails">Guitar Teacher</p>
+                                <p class="flipcarddetails">Teaching since: 2015</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card col-md-4 purpleborder">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/staffpic2-vocalsedit.jpg" alt="Avatar" style="width:275px;height:275px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 class="flipcardname">Jenny Bleakley</h1>
+                                <p class="flipcarddetails">Choir and Pop Vocalist</p>
+                                <p class="flipcarddetails">Teaching since: 2014</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="flip-card purpleborder">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/staffpic3-drums.jpg" alt="Avatar" style="width:275px;height:275px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 class="flipcardname">Kenneth Durden</h1>
+                                <p class="flipcarddetails">Rock Drummer and Classical Percussionist</p>
+                                <p class="flipcarddetails">Teaching since: 2011</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="row">
+
+                    <div class="flip-card col-md-4 purpleborder">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/staffpic4-guitar.jpg" alt="Avatar" style="width:275px;height:275px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 class="flipcardname">Jenny Nguyen</h1>
+                                <p class="flipcarddetails">Classical and Acoustic Guitar</p>
+                                <p class="flipcarddetails">Teaching since: 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card col-md-4 purpleborder">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/staffpic5-saxophone.jpg" alt="Avatar" style="width:275px;height:275px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 class="flipcardname">Cam Newton</h1>
+                                <p class="flipcarddetails">Saxophone</p>
+                                <p class="flipcarddetails">Teaching since: 1998</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card purpleborder">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/staffpic6-trombone.jpg" alt="Avatar" style="width:275px;height:275px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 class="flipcardname">Tommy "Bones" Jones</h1>
+                                <p class="flipcarddetails">Trombone</p>
+                                <p class="flipcarddetails">Teaching since: 1983</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="flip-card col-md-4 purpleborder">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/staffpic7-clarinet.jpg" alt="Avatar" style="width:275px;height:275px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 class="flipcardname">Aaron Rodgers</h1>
+                                <p class="flipcarddetails">Clarinet</p>
+                                <p class="flipcarddetails">Teaching since: 1987</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card purpleborder">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/staffpic8-trumpet.jpg" alt="Avatar" style="width:275px;height:275px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 class="flipcardname">Lamar Jackson</h1>
+                                <p class="flipcarddetails">Trumpet and Flugelhorn</p>
+                                <p class="flipcarddetails">Teaching since: 1998</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="flip-card col-md-4 purpleborder">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/staffpic9-frenchhorn.jpg" alt="Avatar" style="width:275px;height:275px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 class="flipcardname">Ricardo Almeda</h1>
+                                <p class="flipcarddetails">French Horn</p>
+                                <p class="flipcarddetails">Teaching since: 1974</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="flip-card purpleborder">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/staffpic10-bass.jpg" alt="Avatar" style="width:275px;height:275px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 class="flipcardname">Cassidy Samirea</h1>
+                                <p class="flipcarddetails">Bass</p>
+                                <p class="flipcarddetails">Teaching since: 2017</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="flip-card col-md-4 purpleborder">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/staffpic11-violin.jpg" alt="Avatar" style="width:275px;height:275px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 class="flipcardname">Lian Ling</h1>
+                                <p class="flipcarddetails">Violinist and Cellist</p>
+                                <p class="flipcarddetails">Teaching since: 2014</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card col-md-4 purpleborder">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="images/staffpic12-tuba.jpg" alt="Avatar" style="width:275px;height:275px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 class="flipcardname">Matt Smith</h1>
+                                <p class="flipcarddetails">Tuba and Sousaphone</p>
+                                <p class="flipcarddetails">Teaching since: 2007</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div> <!--end lessonscontainer-->
+
+        </div>
+        <aside id="rightColumn">
+            <!-- Lessons Offered Navbar-->
+            <h2 align="center" class="fontstyle1">Lessons Offered</h2>
+            <div class="container">
+                <section>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div style="clear:both;"></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div style="clear:both;"></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div style="clear:both;"></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div class="box"><img src="images/guitartest.jpg" class="lessonsgallery" /></div>
+                    <div style="clear:both;"></div>
+                </section>
+            </div>
+
+        </aside>
+        <div style="clear:both;">
+
+        </div>
+
     </main>
-<footer>
-    <p>
-        Small Business Contact information
-    </p>
-    &copy;2020 Chad Way 
-</footer>
+
+    <footer class="clear">
+        <div class="footer" align="center">
+            <table class="contactinfo">
+                <tr><td class="tdspecial">Kansas City Music Company</td></tr>
+                <tr><td class="tdstyling">Addresss: 1740 W 92nd Street, Kansas City, MO 64114</td></tr>
+                <tr><td class="tdstyling">Email: KCMusicCompany@youremailhere.com</td></tr>
+                <tr><td class="tdstyling">Phone: (816) 857-5309</td></tr>
+            </table>
+        </div>
+
+        <div align="center" class="copyright">&copy;2020 Chad Way</div>
+
+    </footer>
 </body>
 </html>
